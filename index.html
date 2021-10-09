@@ -1,14 +1,39 @@
 <html lang="en">
 <head>
+    <title>Kreshnik Duraku</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="tailwind.css">
     <link rel="stylesheet" href="style/style.css">
-    <title>Kreshnik Duraku</title>
+    <script src="tailwind.config.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1 class="text-7xl">Kreshnik Duraku</h1>
-    <p>Architecture</p>
+    <div class="kd_wrapper">
+        <div class="kd_header w-full h-full bg-no-repeat bg-cover bg-center bg-fixed absolute">
+            <div class="kd_header_container w-4/5 mx-auto">
+                <div class="kd_header_menu mt-20 flex flex-row items-center justify-between">
+                    <img src="images/kd-logo--white.svg" alt="" class="kd_header_menu-logo">
+                    <ul class="kd_header_menu-elements flex text-white items-center">
+                        <li>Home</li>
+                        <li>Projects</li>
+                        <li>Services</li>
+                        <li>About</li>
+                        <li>Contact</li>
+                        <li><img src="images/search.svg" alt=""></li>
+                    </ul>
+                </div>
+                <div class="kd_header_content text-white w-2/4">
+                    <h5 class="kd_header_supertitle text-l mb-3">CONTEMPORARY</h5>
+                    <h1 class="kd_header_title text-6xl font-light mb-5">DESIGN <span style="color:#FCCB4C;">x</span> ARCHITECTURE</h1>
+                    <p class="kd_header_description mb-8">Located in Prishtina, KD architecture buro has been founded by Kreshnik Duraku in 2018. Since then it has been a local leader in design & architecture.</p>
+                    <a href="#" class="kd_header_cta font-bold" style="color:#FCCB4C;">View Projects ↓</a>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
