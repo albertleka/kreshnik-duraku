@@ -3,3 +3,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body{
+    font-family: 'Manrope', sans-serif;;
+}
+
+.kd_header{
+    background-image: url('/images/header-bg.jpg');
+}
+
+.kd_header_menu-elements li{
+    margin-left: 48px;
+}
+
+.kd_header_content {
+    margin-top: 10vw;
+}
