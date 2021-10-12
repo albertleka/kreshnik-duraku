@@ -16,6 +16,10 @@ body{
     margin-left: 48px;
 }
 
+.kd_footer-links li{
+    margin-left: 48px;
+}
+
 .kd_header_content {
     margin-top: 10vw;
 }
@@ -45,4 +49,8 @@ body{
 .kd_service{
     height: 200px;
     width: 200px;
+}
+
+.kd_text-section{
+    background-color: #222;
 }
