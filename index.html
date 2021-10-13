@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="tailwind.css">
     <link rel="stylesheet" href="style/style.css">
-    <script src="tailwind.config.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;700&display=swap" rel="stylesheet">
@@ -14,7 +13,7 @@
 <body>
     <div class="kd_wrapper">
         <div class="kd_header w-full h-full bg-no-repeat bg-cover bg-center bg-fixed">
-            <div class="kd_header_container w-4/5 mx-auto">
+            <div class="kd_header_container 2xl:w-3/5 xl:w-5/6 md:w-4/5 sm:w-4/5 mx-auto">
                 <div class="kd_header_menu  flex flex-row items-center justify-between pt-24">
                     <img src="images/kd-logo--white.svg" alt="" class="kd_header_menu-logo">
                     <ul class="kd_header_menu-elements flex text-white items-center">
@@ -34,7 +33,7 @@
                 </div>
             </div>
         </div>
-        <div class="kd_stai bg-white pt-24 pb-24 w-4/5 mx-auto">
+        <div class="kd_stai bg-white pt-24 pb-24 2xl:w-3/5 xl:w-5/6 md:w-4/5 sm:w-4/5 mx-auto">
             <div class="kd_stai-header w-full mb-24 flex flex-row items-center justify-between">
                 <h1 class="kd_stai-title text-5xl font-light">Projects</h1>
                 <ul class="kd_stai-services-list flex">
@@ -77,7 +76,7 @@
                 </div>
             </div>
         </div>
-        <div class="kd_kpis bg-white pb-24 w-3/4 mx-auto flex flex-row justify-around items-center">
+        <div class="kd_kpis bg-white pb-24 2xl:w-3/5 xl:w-5/6 md:w-4/5 sm:w-4/5 mx-auto flex flex-row justify-around items-center">
             <img src="/images/left-arrow.svg" alt="Left Arrow">
             <div class="kd_kpi text-center">
                 <h1 class="kd_kpi-value text-7xl mb-3 font-light">23</h1>
@@ -93,12 +92,12 @@
             </div>
             <img src="/images/right-arrow.svg" alt="Left Arrow">
         </div>
-        <div class="kd_services bg-white pt-24 pb-24 w-4/5 mx-auto">
+        <div class="kd_services bg-white pt-24 pb-24 2xl:w-3/5 xl:w-5/6 md:w-4/5 sm:w-4/5 mx-auto">
             <div class="kd_services-header flex flex-row justify-between items-center">
                 <h1 class="kd_services-title text-5xl font-light">Services</h1>
                 <a href="#" class="kd_services-link font-bold">All Services →</a>
             </div>
-            <div class="kd_services-content mt-12 flex flex-row mx-auto">
+            <div class="kd_services-content mt-12 flex flex-row justify-center">
                 <div class="kd_service border-l text-center flex items-center justify-center"><a href="#">INTERIOR <br/> DESIGN</a></div>
                 <div class="kd_service border-l text-center flex items-center justify-center"><a href="#">EXTERIOR <br/> DESIGN</a></div>
                 <div class="kd_service border-l text-center flex items-center justify-center"><a href="#">LANDSCAPE <br/> ARCHITECTURE</a></div>
@@ -107,10 +106,10 @@
                 <div class="kd_service border-l border-r text-center flex items-center justify-center"><a href="#">MODEL <br/> RENDERING</a></div>
             </div>
         </div>
-        <div class="kd_video w-full h-full">
-            <video src="/images/citibank.mp4" controls autoplay poster="/images/citibank-poster.jpg"></video>
+        <div class="kd_video w-full mb-24">
+            <video src="/images/citibank.mp4" class="w-full" autoplay poster="/images/citibank-poster.jpg"></video>
         </div>
-        <div class="kd_clients p-24 w-3/4 mx-auto">
+        <div class="kd_clients p-24 pt-0 2xl:w-3/5 xl:w-5/6 md:w-4/5 sm:w-4/5 mx-auto">
             <ul class="kd_clients-list flex flex-row justify-between mt-12">
                 <li><img src="/images/clients/client -1.svg" alt="Client Logo"></li>
                 <li><img src="/images/clients/client -2.svg" alt="Client Logo"></li>
@@ -120,7 +119,7 @@
                 <li><img src="/images/clients/client -6.svg" alt="Client Logo"></li>
             </ul>
         </div>
-        <div class="kd_cards bg-white pb-24 w-4/5 mx-auto">
+        <div class="kd_cards bg-white pb-24 2xl:w-3/5 xl:w-5/6 md:w-4/5 sm:w-4/5 mx-auto">
             <div class="kd_cards-header flex flex-row justify-between items-center mb-12">
                 <h1 class="kd_cards-title text-5xl font-light">About us</h1>
                 <a href="#" class="kd_cards-link font-bold">Read More →</a>
@@ -138,13 +137,13 @@
             </div>
         </div>
         <div class="kd_text-section h-96 w-full flex justify-center items-center">
-            <div class="kd_text-section-content w-4/5 mx-auto flex flex-row items-center text-white">
+            <div class="kd_text-section-content 2xl:w-3/5 xl:w-5/6 md:w-4/5 sm:w-4/5 mx-auto flex flex-row items-center text-white">
                 <h1 class="kd_text-section-title w-1/3 mr-10 text-5xl font-light">Get in Touch</h1>
                 <p class="kd_text-section-description w-1/3 mr-10">Hanc ego cum a sapiente delectus, ut ad id est.</p>
                 <a href="#" class="kd_text-section-link w-1/3 font-bold" style="color:#FCCB4C;">Read More →</a>
             </div>
         </div>
-        <div class="kd_footer w-4/5 mx-auto flex flex-row justify-between items-center h-18 pt-5 pb-5">
+        <div class="kd_footer 2xl:w-3/5 xl:w-5/6 md:w-4/5 sm:w-4/5 mx-auto flex flex-row justify-between items-center h-18 pt-5 pb-5">
             <img src="/images/logo-bottom.svg" alt="KD Dark Logo">
             <ul class="kd_footer-links flex flex-row">
                 <li><a href="#">Impressum</a></li>
@@ -154,5 +153,6 @@
             </ul>
         </div>
     </div>
+    <script src="tailwind.config.js"></script>
 </body>
 </html>
