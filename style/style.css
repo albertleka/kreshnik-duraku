@@ -31,19 +31,19 @@ body{
 .kd_stai-element-image--left{
     border-top-left-radius: 110px;
     border-bottom-left-radius: 110px;
-    background-image: url("/images/amsterdam-studio.jpg");
+    background-image: url("../images/amsterdam-studio.jpg");
 }
 
 .kd_stai-element-image--right{
     border-top-right-radius: 110px;
     border-bottom-right-radius: 110px;
-    background-image: url("/images/shinny-bedroom.jpg");
+    background-image: url("../images/shinny-bedroom.jpg");
 }
 
 .kd_stai-element-image--bath{
     border-top-left-radius: 110px;
     border-bottom-left-radius: 110px;
-    background-image: url("/images/finnese-bath.jpg");
+    background-image: url("../images/finnese-bath.jpg");
 }
 
 .kd_service{
