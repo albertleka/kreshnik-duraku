@@ -9,7 +9,7 @@ body{
 }
 
 .kd_header{
-    background-image: url('/images/header-bg.jpg');
+    background-image: url('../images/header-bg.jpg');
 }
 
 .kd_header_menu-elements li{
