@@ -29,21 +29,21 @@ body{
 }
 
 .kd_stai-element-image--left{
-    border-top-left-radius: 30%;
-    border-bottom-left-radius: 30%;
-    background-image: url('../images/amsterdam-studio.jpg');
+    border-top-left-radius: 110px;
+    border-bottom-left-radius: 110px;
+    background-image: url("/images/amsterdam-studio.jpg");
 }
 
 .kd_stai-element-image--right{
-    border-top-right-radius: 30%;
-    border-bottom-right-radius: 30%;
-    background-image: url('../images/shinny-bedroom.jpg');
+    border-top-right-radius: 110px;
+    border-bottom-right-radius: 110px;
+    background-image: url("/images/shinny-bedroom.jpg");
 }
 
 .kd_stai-element-image--bath{
-    border-top-left-radius: 30%;
-    border-bottom-left-radius: 30%;
-    background-image: url('../images/finnese-bath.jpg');
+    border-top-left-radius: 110px;
+    border-bottom-left-radius: 110px;
+    background-image: url("/images/finnese-bath.jpg");
 }
 
 .kd_service{

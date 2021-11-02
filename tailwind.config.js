@@ -3,10 +3,15 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     fontFamily:{
-      sans:['Manrope', 'sans-serif']
+      sans:['Manrope', 'sans-serif'],
     },
-    extend: {
 
+    maxWidth:{
+      'max-w-screen-1xl': '1920px',
+    },
+
+    screens:{
+      '1xl': '1920px'
     },
   },
   variants: {
